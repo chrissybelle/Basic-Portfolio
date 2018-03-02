@@ -42,6 +42,12 @@ nav {
 a.navlink {
     color: #999;
     text-decoration: none;
+    border-right: 1px solid #999;
+    padding: 0 0.75em;
+}
+
+.header-nav li:last-child a.navlink {
+    border-right: none;
 }
 
 a.navlink:visited {
@@ -56,7 +62,6 @@ a.navlink:hover {
 
 a.navlink:active {
     color: #4aaaa5;
-    text-decoration: bold;
     text-transform: uppercase;
 }
 
